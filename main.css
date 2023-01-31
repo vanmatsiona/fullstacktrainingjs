@@ -1,0 +1,91 @@
+
+form{
+
+    /* css flex-box */
+  display:flex;
+  justify-content:center;  
+}
+
+.logo i{
+font-size:150px;
+/* color hex code */
+color:#932020;
+position:relative;
+top:15px;
+left:132px;
+}
+
+.label{
+font-family:sans-serif;
+font-size:18px;
+margin:6px;
+}
+.inputs{
+width:388px;
+height:20px;
+padding:10px;
+border-radius:5px;
+border:1px solid gray;
+margin:10px;
+outline:none;
+}
+
+#btn{
+    width:410px;
+    height:40px;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid gray;
+    background-color: #932020;
+    color:white;
+    font-size:18px;
+}
+
+#btns{
+    width:410px;
+    height:40px;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid gray;
+    background-color: gray;
+    color:white;
+    font-size:18px;
+}
+
+.logo2{
+color:#932020;
+font-size:30px;
+position:relative;
+right:400px
+}
+
+p{
+font-size:25px;  
+}
+
+a{
+text-decoration:none;
+color:#932020;
+text-align:center;
+}
+a:hover{
+color:black;
+}
+
+fieldset{
+max-width:450px;
+border:1px solid gray;
+}
+
+span{
+position:relative;
+bottom:40px;
+left:100px;
+color:gray;
+}
+
+.error,.error_2,.error_3,.error_4{
+display:block;
+margin-top:30px;
+color:red;
+}

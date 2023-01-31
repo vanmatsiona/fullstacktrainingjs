@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form id="forms">
+        <fieldset>
+        <div class="logo">
+        <i class="fa fa-university" aria-hidden="true"></i><br>
+        </div>
+        <br>
+        <br>
+        <label for="prenom" class="label">Prenom</label><br>
+        <input type="text" id="prenom" name="prenom" placeholder="entrer votre Prenom" class="inputs"><br>
+        <span class="error"></span>
+        <label for="nom"class="label">Nom</label><br>
+        <input type="text" id="nom" name="nom" placeholder="entrer votre Nom"class="inputs"> 
+        <span class="error2"></span>
+        <br>
+        <label for="mail"class="label">E-mail</label><br>
+        <input type="email" id="mail" name="mail"placeholder="entrer votre email"class="inputs">
+        <span class="error3"></span>
+        <br>
+        <label for="password"class="label">Mot de Passe</label><br>
+        <input type="password" id="password" name="password"class="inputs"><i class="fa fa-unlock-alt  logo2" aria-hidden="true"></i> <span>Entrer votre mot de passe</span>
+        <span class="error4"></span>
+        <br>
+   <br>
+   <button  type="submit" id="btn">S'inscrire<a href="#"></a></button><br>
+   <!-- line break pour creer de l'espace control+/-->
+   <br>
+   <br>
+   <br>
+   <button  type="submit" id="btns">Se Connecter avec GOOGLE<a href="#"></a></button><i class="fa fa-google logo2" aria-hidden="true"></i>
+   <br>
+   <br>
+   <br>
+   <br>
+   <p>Etes vous deja inscrite?<a href="#">Se Connecter</a></p>
+   </fieldset>
+    </form>
+    <script src="text2.js"></script>
+</body>
+</html>
